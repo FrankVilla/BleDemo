@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apiUrl</key>
+	<string>https://zubat-dev.api.meetlify.com</string>
+	<key>apiKey</key>
+	<string>4be013eb1b6de9e0b3069db59322ebc8dev</string>
+</dict>
+</plist>

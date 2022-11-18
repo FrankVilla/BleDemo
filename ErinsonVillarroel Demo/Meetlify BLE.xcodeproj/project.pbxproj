@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500CC33425402846007CD075 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CC33325402846007CD075 /* LoaderView.swift */; };
+		504458E02518AB4100A68DFB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 504458DF2518AB4100A68DFB /* Alamofire */; };
+		504458E62518AE3B00A68DFB /* AlamoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504458E52518AE3B00A68DFB /* AlamoService.swift */; };
+		504458EE2518AF4100A68DFB /* ApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504458ED2518AF4100A68DFB /* ApiRoute.swift */; };
+		504458F32518AFC200A68DFB /* ApiContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504458F22518AFC200A68DFB /* ApiContext.swift */; };
+		504458F92518B00200A68DFB /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504458F82518B00200A68DFB /* Enviroment.swift */; };
+		504459032518B21000A68DFB /* ApiConfig-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 504459022518B21000A68DFB /* ApiConfig-Info.plist */; };
+		506A8072253F0B2400308067 /* KeyboardAwareModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A8071253F0B2400308067 /* KeyboardAwareModifier.swift */; };
+		506A8078253F112D00308067 /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 506A8077253F112D00308067 /* PartialSheet */; };
+		506A8080253F53C500308067 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506A807F253F53C500308067 /* ErrorView.swift */; };
+		507B7FC22564726200BF314B /* Beacon_distance_RFC_newAttribute.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 507B7FC02564726200BF314B /* Beacon_distance_RFC_newAttribute.mlmodel */; };
+		507B7FC32564726200BF314B /* Beacon_distance_RFC.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 507B7FC12564726200BF314B /* Beacon_distance_RFC.mlmodel */; };
+		5081C2CF250E4C0E009FCB5A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081C2CE250E4C0E009FCB5A /* MainView.swift */; };
+		5081C2D2250E5189009FCB5A /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081C2D1250E5189009FCB5A /* UsersView.swift */; };
+		5081C2D6250E620B009FCB5A /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081C2D5250E620B009FCB5A /* UserRowView.swift */; };
+		5081C2DA250E6B37009FCB5A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081C2D9250E6B37009FCB5A /* UserModel.swift */; };
+		5081C2E0250E7357009FCB5A /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5081C2DF250E7357009FCB5A /* UserDetailView.swift */; };
+		509936C5256E71DF008076AF /* BodyStringEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509936C4256E71DF008076AF /* BodyStringEncoding.swift */; };
+		509936CA256EE1E9008076AF /* UserDataHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509936C9256EE1E9008076AF /* UserDataHolder.swift */; };
+		509936CF256EF52A008076AF /* DoNotDisturbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509936CE256EF52A008076AF /* DoNotDisturbView.swift */; };
+		509BD46E250C1ACE0062B305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509BD46D250C1ACE0062B305 /* AppDelegate.swift */; };
+		509BD470250C1ACE0062B305 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509BD46F250C1ACE0062B305 /* SceneDelegate.swift */; };
+		509BD472250C1ACE0062B305 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509BD471250C1ACE0062B305 /* LoginView.swift */; };
+		509BD474250C1AD10062B305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509BD473250C1AD10062B305 /* Assets.xcassets */; };
+		509BD477250C1AD10062B305 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 509BD476250C1AD10062B305 /* Preview Assets.xcassets */; };
+		509BD47A250C1AD10062B305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 509BD478250C1AD10062B305 /* LaunchScreen.storyboard */; };
+		509BD485250C1AD10062B305 /* Meetlify_BLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509BD484250C1AD10062B305 /* Meetlify_BLETests.swift */; };
+		509BD490250C1AD20062B305 /* Meetlify_BLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509BD48F250C1AD20062B305 /* Meetlify_BLEUITests.swift */; };
+		50A96129256C45C0007FE19E /* SwiftUIRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 50A96128256C45C0007FE19E /* SwiftUIRefresh */; };
+		50B263262551D9370002C64D /* BeaconDistanceRFCEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B263252551D9370002C64D /* BeaconDistanceRFCEvaluator.swift */; };
+		50C1D1F9256679E000F69E7E /* Scanner+PeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1D1F8256679E000F69E7E /* Scanner+PeripheralDelegate.swift */; };
+		50C1D2012566F86B00F69E7E /* DistanceEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1D2002566F86B00F69E7E /* DistanceEvaluator.swift */; };
+		50C1D20C2566FD9000F69E7E /* DistanceEvaluatorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1D20B2566FD9000F69E7E /* DistanceEvaluatorResult.swift */; };
+		50C1D2112567CAA200F69E7E /* BeaconDistanceRFCNewAttributeEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1D2102567CAA200F69E7E /* BeaconDistanceRFCNewAttributeEvaluator.swift */; };
+		50C1D2202567CD9000F69E7E /* RssiDistanceEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1D21F2567CD9000F69E7E /* RssiDistanceEvaluator.swift */; };
+		50C1D22C2567D9C900F69E7E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1D22B2567D9C900F69E7E /* SettingsView.swift */; };
+		50C1D23A2567DB8E00F69E7E /* DistanceEvaluatorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1D2392567DB8E00F69E7E /* DistanceEvaluatorConfiguration.swift */; };
+		50C1F4D9252C598C000DBC28 /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F4D8252C598C000DBC28 /* ApiController.swift */; };
+		50C1F4DF252C5A20000DBC28 /* AlamofireUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F4DE252C5A20000DBC28 /* AlamofireUserService.swift */; };
+		50C1F4E8252C602F000DBC28 /* ApiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F4E7252C602F000DBC28 /* ApiModels.swift */; };
+		50C1F4F1252C60B3000DBC28 /* ObjectMapper in Frameworks */ = {isa = PBXBuildFile; productRef = 50C1F4F0252C60B3000DBC28 /* ObjectMapper */; };
+		50C1F4F6252C739A000DBC28 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F4F5252C739A000DBC28 /* UserService.swift */; };
+		50C1F50C252DDC59000DBC28 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F50B252DDC59000DBC28 /* UsersViewModel.swift */; };
+		50DD7E66252E681C00855568 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DD7E65252E681C00855568 /* TextFieldModifier.swift */; };
+		50F89E1D253A559000D66213 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F89E1C253A559000D66213 /* ListHeaderView.swift */; };
+		50F89E28253A5B7200D66213 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F89E27253A5B7200D66213 /* Classifier.swift */; };
+		50F89E31253A5D5B00D66213 /* UserDetailStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F89E30253A5D5B00D66213 /* UserDetailStateView.swift */; };
+		50F89E36253A741D00D66213 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F89E35253A741D00D66213 /* ColorExtension.swift */; };
+		50FAC0662530FA6D00540C44 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAC0652530FA6D00540C44 /* Scanner.swift */; };
+		50FAC06E2530FF8100540C44 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAC06D2530FF8100540C44 /* Advertiser.swift */; };
+		50FAC0952537737300540C44 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 50FAC0942537737300540C44 /* AlamofireImage */; };
+		50FAC09B253773F900540C44 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAC09A253773F900540C44 /* PhotoService.swift */; };
+		50FAC0A32537747400540C44 /* AlamofirePhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAC0A22537747400540C44 /* AlamofirePhotoService.swift */; };
+		50FAC0A82537778300540C44 /* PhotoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAC0A72537778300540C44 /* PhotoDownloader.swift */; };
+		50FAC0B02537BC6300540C44 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAC0AF2537BC6300540C44 /* ViewExtension.swift */; };
+		50FAC0C3253870CA00540C44 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAC0C2253870CA00540C44 /* ProfileView.swift */; };
+		50FAC0CB2538725800540C44 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAC0CA2538725800540C44 /* ProfileViewModel.swift */; };
+		50FAC0D42538CB9A00540C44 /* TextFieldChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FAC0D32538CB9A00540C44 /* TextFieldChanges.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		509BD481250C1AD10062B305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509BD462250C1ACE0062B305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509BD469250C1ACE0062B305;
+			remoteInfo = "Meetlify BLE";
+		};
+		509BD48C250C1AD20062B305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 509BD462250C1ACE0062B305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509BD469250C1ACE0062B305;
+			remoteInfo = "Meetlify BLE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		500CC33325402846007CD075 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		504458E52518AE3B00A68DFB /* AlamoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamoService.swift; sourceTree = "<group>"; };
+		504458ED2518AF4100A68DFB /* ApiRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRoute.swift; sourceTree = "<group>"; };
+		504458F22518AFC200A68DFB /* ApiContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiContext.swift; sourceTree = "<group>"; };
+		504458F82518B00200A68DFB /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		504459022518B21000A68DFB /* ApiConfig-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApiConfig-Info.plist"; sourceTree = "<group>"; };
+		506A8071253F0B2400308067 /* KeyboardAwareModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareModifier.swift; sourceTree = "<group>"; };
+		506A807F253F53C500308067 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		507B7FC02564726200BF314B /* Beacon_distance_RFC_newAttribute.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Beacon_distance_RFC_newAttribute.mlmodel; sourceTree = "<group>"; };
+		507B7FC12564726200BF314B /* Beacon_distance_RFC.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Beacon_distance_RFC.mlmodel; sourceTree = "<group>"; };
+		5081C2CE250E4C0E009FCB5A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5081C2D1250E5189009FCB5A /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		5081C2D5250E620B009FCB5A /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		5081C2D9250E6B37009FCB5A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		5081C2DF250E7357009FCB5A /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		509936C4256E71DF008076AF /* BodyStringEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyStringEncoding.swift; sourceTree = "<group>"; };
+		509936C9256EE1E9008076AF /* UserDataHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataHolder.swift; sourceTree = "<group>"; };
+		509936CE256EF52A008076AF /* DoNotDisturbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoNotDisturbView.swift; sourceTree = "<group>"; };
+		509BD46A250C1ACE0062B305 /* Meetlify BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meetlify BLE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509BD46D250C1ACE0062B305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		509BD46F250C1ACE0062B305 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		509BD471250C1ACE0062B305 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		509BD473250C1AD10062B305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		509BD476250C1AD10062B305 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		509BD479250C1AD10062B305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		509BD47B250C1AD10062B305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509BD480250C1AD10062B305 /* Meetlify BLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meetlify BLETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509BD484250C1AD10062B305 /* Meetlify_BLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetlify_BLETests.swift; sourceTree = "<group>"; };
+		509BD486250C1AD10062B305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		509BD48B250C1AD20062B305 /* Meetlify BLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meetlify BLEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509BD48F250C1AD20062B305 /* Meetlify_BLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meetlify_BLEUITests.swift; sourceTree = "<group>"; };
+		509BD491250C1AD20062B305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B263252551D9370002C64D /* BeaconDistanceRFCEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconDistanceRFCEvaluator.swift; sourceTree = "<group>"; };
+		50C1D1F8256679E000F69E7E /* Scanner+PeripheralDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scanner+PeripheralDelegate.swift"; sourceTree = "<group>"; };
+		50C1D2002566F86B00F69E7E /* DistanceEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceEvaluator.swift; sourceTree = "<group>"; };
+		50C1D20B2566FD9000F69E7E /* DistanceEvaluatorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceEvaluatorResult.swift; sourceTree = "<group>"; };
+		50C1D2102567CAA200F69E7E /* BeaconDistanceRFCNewAttributeEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconDistanceRFCNewAttributeEvaluator.swift; sourceTree = "<group>"; };
+		50C1D21F2567CD9000F69E7E /* RssiDistanceEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssiDistanceEvaluator.swift; sourceTree = "<group>"; };
+		50C1D22B2567D9C900F69E7E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		50C1D2392567DB8E00F69E7E /* DistanceEvaluatorConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceEvaluatorConfiguration.swift; sourceTree = "<group>"; };
+		50C1F4D8252C598C000DBC28 /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
+		50C1F4DE252C5A20000DBC28 /* AlamofireUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireUserService.swift; sourceTree = "<group>"; };
+		50C1F4E7252C602F000DBC28 /* ApiModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModels.swift; sourceTree = "<group>"; };
+		50C1F4F5252C739A000DBC28 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		50C1F50B252DDC59000DBC28 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		50DD7E65252E681C00855568 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		50F89E1C253A559000D66213 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListHeaderView.swift; path = "Meetlify BLE/Views/Common/ListHeaderView.swift"; sourceTree = SOURCE_ROOT; };
+		50F89E27253A5B7200D66213 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		50F89E30253A5D5B00D66213 /* UserDetailStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailStateView.swift; sourceTree = "<group>"; };
+		50F89E35253A741D00D66213 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		50FAC0652530FA6D00540C44 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		50FAC06D2530FF8100540C44 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		50FAC09A253773F900540C44 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		50FAC0A22537747400540C44 /* AlamofirePhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofirePhotoService.swift; sourceTree = "<group>"; };
+		50FAC0A72537778300540C44 /* PhotoDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDownloader.swift; sourceTree = "<group>"; };
+		50FAC0AF2537BC6300540C44 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		50FAC0C2253870CA00540C44 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		50FAC0CA2538725800540C44 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		50FAC0D32538CB9A00540C44 /* TextFieldChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldChanges.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		509BD467250C1ACE0062B305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A96129256C45C0007FE19E /* SwiftUIRefresh in Frameworks */,
+				50C1F4F1252C60B3000DBC28 /* ObjectMapper in Frameworks */,
+				504458E02518AB4100A68DFB /* Alamofire in Frameworks */,
+				50FAC0952537737300540C44 /* AlamofireImage in Frameworks */,
+				506A8078253F112D00308067 /* PartialSheet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509BD47D250C1AD10062B305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509BD488250C1AD20062B305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504458E42518AE2900A68DFB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				50FAC099253773AE00540C44 /* Photo */,
+				50C1F4E6252C5F35000DBC28 /* User */,
+				50C1F4DD252C59F1000DBC28 /* Services */,
+				504458ED2518AF4100A68DFB /* ApiRoute.swift */,
+				504458F22518AFC200A68DFB /* ApiContext.swift */,
+				50C1F4D8252C598C000DBC28 /* ApiController.swift */,
+				50C1F4E7252C602F000DBC28 /* ApiModels.swift */,
+				509936C4256E71DF008076AF /* BodyStringEncoding.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		504458F72518AFF200A68DFB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				504458F82518B00200A68DFB /* Enviroment.swift */,
+				50DD7E65252E681C00855568 /* TextFieldModifier.swift */,
+				50FAC0A72537778300540C44 /* PhotoDownloader.swift */,
+				50FAC0AF2537BC6300540C44 /* ViewExtension.swift */,
+				50F89E35253A741D00D66213 /* ColorExtension.swift */,
+				506A8071253F0B2400308067 /* KeyboardAwareModifier.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		504459002518B19E00A68DFB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				509BD473250C1AD10062B305 /* Assets.xcassets */,
+				504459012518B1A700A68DFB /* ApiConfig */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		504459012518B1A700A68DFB /* ApiConfig */ = {
+			isa = PBXGroup;
+			children = (
+				504459022518B21000A68DFB /* ApiConfig-Info.plist */,
+			);
+			path = ApiConfig;
+			sourceTree = "<group>";
+		};
+		5081C2D0250E50AC009FCB5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50F89E2C253A5BC300D66213 /* Common */,
+				50FAC0D22538CB8400540C44 /* LoginView */,
+				50FAC0C1253870B200540C44 /* ProfileView */,
+				50C1F4FB252C7438000DBC28 /* UserDetailView */,
+				50C1F4FA252C741A000DBC28 /* UserView */,
+				50C1D22A2567D9AD00F69E7E /* Settings */,
+				5081C2CE250E4C0E009FCB5A /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5081C2D8250E6B24009FCB5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5081C2D9250E6B37009FCB5A /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		509BD461250C1ACE0062B305 = {
+			isa = PBXGroup;
+			children = (
+				509BD46C250C1ACE0062B305 /* Meetlify BLE */,
+				509BD483250C1AD10062B305 /* Meetlify BLETests */,
+				509BD48E250C1AD20062B305 /* Meetlify BLEUITests */,
+				509BD46B250C1ACE0062B305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		509BD46B250C1ACE0062B305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				509BD46A250C1ACE0062B305 /* Meetlify BLE.app */,
+				509BD480250C1AD10062B305 /* Meetlify BLETests.xctest */,
+				509BD48B250C1AD20062B305 /* Meetlify BLEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		509BD46C250C1ACE0062B305 /* Meetlify BLE */ = {
+			isa = PBXGroup;
+			children = (
+				504459002518B19E00A68DFB /* Assets */,
+				504458E42518AE2900A68DFB /* API */,
+				50FAC0642530FA5600540C44 /* Bluetooth */,
+				50C1D21E2567CD3900F69E7E /* DistanceCalculators */,
+				50B263242551D9120002C64D /* MachineLearingModels */,
+				5081C2D8250E6B24009FCB5A /* Models */,
+				504458F72518AFF200A68DFB /* Utility */,
+				5081C2D0250E50AC009FCB5A /* Views */,
+				509BD46D250C1ACE0062B305 /* AppDelegate.swift */,
+				509BD46F250C1ACE0062B305 /* SceneDelegate.swift */,
+				509BD478250C1AD10062B305 /* LaunchScreen.storyboard */,
+				509BD47B250C1AD10062B305 /* Info.plist */,
+				509BD475250C1AD10062B305 /* Preview Content */,
+			);
+			path = "Meetlify BLE";
+			sourceTree = "<group>";
+		};
+		509BD475250C1AD10062B305 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				509BD476250C1AD10062B305 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		509BD483250C1AD10062B305 /* Meetlify BLETests */ = {
+			isa = PBXGroup;
+			children = (
+				509BD484250C1AD10062B305 /* Meetlify_BLETests.swift */,
+				509BD486250C1AD10062B305 /* Info.plist */,
+			);
+			path = "Meetlify BLETests";
+			sourceTree = "<group>";
+		};
+		509BD48E250C1AD20062B305 /* Meetlify BLEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				509BD48F250C1AD20062B305 /* Meetlify_BLEUITests.swift */,
+				509BD491250C1AD20062B305 /* Info.plist */,
+			);
+			path = "Meetlify BLEUITests";
+			sourceTree = "<group>";
+		};
+		50B263242551D9120002C64D /* MachineLearingModels */ = {
+			isa = PBXGroup;
+			children = (
+				507B7FC02564726200BF314B /* Beacon_distance_RFC_newAttribute.mlmodel */,
+				507B7FC12564726200BF314B /* Beacon_distance_RFC.mlmodel */,
+			);
+			path = MachineLearingModels;
+			sourceTree = "<group>";
+		};
+		50C1D21E2567CD3900F69E7E /* DistanceCalculators */ = {
+			isa = PBXGroup;
+			children = (
+				50F89E27253A5B7200D66213 /* Classifier.swift */,
+				50C1D2002566F86B00F69E7E /* DistanceEvaluator.swift */,
+				50C1D2392567DB8E00F69E7E /* DistanceEvaluatorConfiguration.swift */,
+				50C1D20B2566FD9000F69E7E /* DistanceEvaluatorResult.swift */,
+				50B263252551D9370002C64D /* BeaconDistanceRFCEvaluator.swift */,
+				50C1D2102567CAA200F69E7E /* BeaconDistanceRFCNewAttributeEvaluator.swift */,
+				50C1D21F2567CD9000F69E7E /* RssiDistanceEvaluator.swift */,
+			);
+			path = DistanceCalculators;
+			sourceTree = "<group>";
+		};
+		50C1D22A2567D9AD00F69E7E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				50C1D22B2567D9C900F69E7E /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		50C1F4DD252C59F1000DBC28 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				504458E52518AE3B00A68DFB /* AlamoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		50C1F4E6252C5F35000DBC28 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				50C1F4F5252C739A000DBC28 /* UserService.swift */,
+				50C1F4DE252C5A20000DBC28 /* AlamofireUserService.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		50C1F4FA252C741A000DBC28 /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				5081C2D1250E5189009FCB5A /* UsersView.swift */,
+				5081C2D5250E620B009FCB5A /* UserRowView.swift */,
+				50C1F50B252DDC59000DBC28 /* UsersViewModel.swift */,
+			);
+			path = UserView;
+			sourceTree = "<group>";
+		};
+		50C1F4FB252C7438000DBC28 /* UserDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				5081C2DF250E7357009FCB5A /* UserDetailView.swift */,
+				50F89E30253A5D5B00D66213 /* UserDetailStateView.swift */,
+			);
+			path = UserDetailView;
+			sourceTree = "<group>";
+		};
+		50F89E2C253A5BC300D66213 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				50F89E1C253A559000D66213 /* ListHeaderView.swift */,
+				506A807F253F53C500308067 /* ErrorView.swift */,
+				500CC33325402846007CD075 /* LoaderView.swift */,
+				509936C9256EE1E9008076AF /* UserDataHolder.swift */,
+				509936CE256EF52A008076AF /* DoNotDisturbView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		50FAC0642530FA5600540C44 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				50FAC06D2530FF8100540C44 /* Advertiser.swift */,
+				50FAC0652530FA6D00540C44 /* Scanner.swift */,
+				50C1D1F8256679E000F69E7E /* Scanner+PeripheralDelegate.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		50FAC099253773AE00540C44 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				50FAC09A253773F900540C44 /* PhotoService.swift */,
+				50FAC0A22537747400540C44 /* AlamofirePhotoService.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		50FAC0C1253870B200540C44 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				50FAC0C2253870CA00540C44 /* ProfileView.swift */,
+				50FAC0CA2538725800540C44 /* ProfileViewModel.swift */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		50FAC0D22538CB8400540C44 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				509BD471250C1ACE0062B305 /* LoginView.swift */,
+				50FAC0D32538CB9A00540C44 /* TextFieldChanges.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		509BD469250C1ACE0062B305 /* Meetlify BLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509BD494250C1AD20062B305 /* Build configuration list for PBXNativeTarget "Meetlify BLE" */;
+			buildPhases = (
+				509BD466250C1ACE0062B305 /* Sources */,
+				509BD467250C1ACE0062B305 /* Frameworks */,
+				509BD468250C1ACE0062B305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meetlify BLE";
+			packageProductDependencies = (
+				504458DF2518AB4100A68DFB /* Alamofire */,
+				50C1F4F0252C60B3000DBC28 /* ObjectMapper */,
+				50FAC0942537737300540C44 /* AlamofireImage */,
+				506A8077253F112D00308067 /* PartialSheet */,
+				50A96128256C45C0007FE19E /* SwiftUIRefresh */,
+			);
+			productName = "Meetlify BLE";
+			productReference = 509BD46A250C1ACE0062B305 /* Meetlify BLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		509BD47F250C1AD10062B305 /* Meetlify BLETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509BD497250C1AD20062B305 /* Build configuration list for PBXNativeTarget "Meetlify BLETests" */;
+			buildPhases = (
+				509BD47C250C1AD10062B305 /* Sources */,
+				509BD47D250C1AD10062B305 /* Frameworks */,
+				509BD47E250C1AD10062B305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509BD482250C1AD10062B305 /* PBXTargetDependency */,
+			);
+			name = "Meetlify BLETests";
+			productName = "Meetlify BLETests";
+			productReference = 509BD480250C1AD10062B305 /* Meetlify BLETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		509BD48A250C1AD20062B305 /* Meetlify BLEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 509BD49A250C1AD20062B305 /* Build configuration list for PBXNativeTarget "Meetlify BLEUITests" */;
+			buildPhases = (
+				509BD487250C1AD20062B305 /* Sources */,
+				509BD488250C1AD20062B305 /* Frameworks */,
+				509BD489250C1AD20062B305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				509BD48D250C1AD20062B305 /* PBXTargetDependency */,
+			);
+			name = "Meetlify BLEUITests";
+			productName = "Meetlify BLEUITests";
+			productReference = 509BD48B250C1AD20062B305 /* Meetlify BLEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		509BD462250C1ACE0062B305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Meetbit;
+				TargetAttributes = {
+					509BD469250C1ACE0062B305 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					509BD47F250C1AD10062B305 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 509BD469250C1ACE0062B305;
+					};
+					509BD48A250C1AD20062B305 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 509BD469250C1ACE0062B305;
+					};
+				};
+			};
+			buildConfigurationList = 509BD465250C1ACE0062B305 /* Build configuration list for PBXProject "Meetlify BLE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 509BD461250C1ACE0062B305;
+			packageReferences = (
+				504458DE2518AB4100A68DFB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				50C1F4EF252C60B3000DBC28 /* XCRemoteSwiftPackageReference "ObjectMapper" */,
+				50FAC0932537737300540C44 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				506A8076253F112D00308067 /* XCRemoteSwiftPackageReference "PartialSheet" */,
+				50A96127256C45C0007FE19E /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */,
+			);
+			productRefGroup = 509BD46B250C1ACE0062B305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				509BD469250C1ACE0062B305 /* Meetlify BLE */,
+				509BD47F250C1AD10062B305 /* Meetlify BLETests */,
+				509BD48A250C1AD20062B305 /* Meetlify BLEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		509BD468250C1ACE0062B305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509BD47A250C1AD10062B305 /* LaunchScreen.storyboard in Resources */,
+				504459032518B21000A68DFB /* ApiConfig-Info.plist in Resources */,
+				509BD477250C1AD10062B305 /* Preview Assets.xcassets in Resources */,
+				509BD474250C1AD10062B305 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509BD47E250C1AD10062B305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509BD489250C1AD20062B305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		509BD466250C1ACE0062B305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C1D2012566F86B00F69E7E /* DistanceEvaluator.swift in Sources */,
+				50FAC0A32537747400540C44 /* AlamofirePhotoService.swift in Sources */,
+				50FAC0C3253870CA00540C44 /* ProfileView.swift in Sources */,
+				50F89E31253A5D5B00D66213 /* UserDetailStateView.swift in Sources */,
+				50FAC0A82537778300540C44 /* PhotoDownloader.swift in Sources */,
+				50C1D23A2567DB8E00F69E7E /* DistanceEvaluatorConfiguration.swift in Sources */,
+				509BD46E250C1ACE0062B305 /* AppDelegate.swift in Sources */,
+				50C1F50C252DDC59000DBC28 /* UsersViewModel.swift in Sources */,
+				50FAC0B02537BC6300540C44 /* ViewExtension.swift in Sources */,
+				50B263262551D9370002C64D /* BeaconDistanceRFCEvaluator.swift in Sources */,
+				50FAC0CB2538725800540C44 /* ProfileViewModel.swift in Sources */,
+				50C1F4E8252C602F000DBC28 /* ApiModels.swift in Sources */,
+				50F89E36253A741D00D66213 /* ColorExtension.swift in Sources */,
+				5081C2D2250E5189009FCB5A /* UsersView.swift in Sources */,
+				50C1D1F9256679E000F69E7E /* Scanner+PeripheralDelegate.swift in Sources */,
+				50C1D20C2566FD9000F69E7E /* DistanceEvaluatorResult.swift in Sources */,
+				50C1F4D9252C598C000DBC28 /* ApiController.swift in Sources */,
+				504458F32518AFC200A68DFB /* ApiContext.swift in Sources */,
+				5081C2DA250E6B37009FCB5A /* UserModel.swift in Sources */,
+				507B7FC32564726200BF314B /* Beacon_distance_RFC.mlmodel in Sources */,
+				50C1F4F6252C739A000DBC28 /* UserService.swift in Sources */,
+				5081C2CF250E4C0E009FCB5A /* MainView.swift in Sources */,
+				50C1D22C2567D9C900F69E7E /* SettingsView.swift in Sources */,
+				50F89E1D253A559000D66213 /* ListHeaderView.swift in Sources */,
+				509936CA256EE1E9008076AF /* UserDataHolder.swift in Sources */,
+				500CC33425402846007CD075 /* LoaderView.swift in Sources */,
+				50C1D2202567CD9000F69E7E /* RssiDistanceEvaluator.swift in Sources */,
+				507B7FC22564726200BF314B /* Beacon_distance_RFC_newAttribute.mlmodel in Sources */,
+				50DD7E66252E681C00855568 /* TextFieldModifier.swift in Sources */,
+				504458EE2518AF4100A68DFB /* ApiRoute.swift in Sources */,
+				50F89E28253A5B7200D66213 /* Classifier.swift in Sources */,
+				506A8072253F0B2400308067 /* KeyboardAwareModifier.swift in Sources */,
+				5081C2E0250E7357009FCB5A /* UserDetailView.swift in Sources */,
+				50FAC09B253773F900540C44 /* PhotoService.swift in Sources */,
+				50C1D2112567CAA200F69E7E /* BeaconDistanceRFCNewAttributeEvaluator.swift in Sources */,
+				509BD470250C1ACE0062B305 /* SceneDelegate.swift in Sources */,
+				506A8080253F53C500308067 /* ErrorView.swift in Sources */,
+				50C1F4DF252C5A20000DBC28 /* AlamofireUserService.swift in Sources */,
+				5081C2D6250E620B009FCB5A /* UserRowView.swift in Sources */,
+				504458E62518AE3B00A68DFB /* AlamoService.swift in Sources */,
+				509BD472250C1ACE0062B305 /* LoginView.swift in Sources */,
+				50FAC0662530FA6D00540C44 /* Scanner.swift in Sources */,
+				504458F92518B00200A68DFB /* Enviroment.swift in Sources */,
+				50FAC06E2530FF8100540C44 /* Advertiser.swift in Sources */,
+				509936CF256EF52A008076AF /* DoNotDisturbView.swift in Sources */,
+				50FAC0D42538CB9A00540C44 /* TextFieldChanges.swift in Sources */,
+				509936C5256E71DF008076AF /* BodyStringEncoding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509BD47C250C1AD10062B305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509BD485250C1AD10062B305 /* Meetlify_BLETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		509BD487250C1AD20062B305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509BD490250C1AD20062B305 /* Meetlify_BLEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		509BD482250C1AD10062B305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509BD469250C1ACE0062B305 /* Meetlify BLE */;
+			targetProxy = 509BD481250C1AD10062B305 /* PBXContainerItemProxy */;
+		};
+		509BD48D250C1AD20062B305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 509BD469250C1ACE0062B305 /* Meetlify BLE */;
+			targetProxy = 509BD48C250C1AD20062B305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		509BD478250C1AD10062B305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				509BD479250C1AD10062B305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		509BD492250C1AD20062B305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		509BD493250C1AD20062B305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		509BD495250C1AD20062B305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Meetlify BLE/Preview Content\"";
+				DEVELOPMENT_TEAM = H9B67FB6G2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Meetlify BLE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meetbit.MeetlifyBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		509BD496250C1AD20062B305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Meetlify BLE/Preview Content\"";
+				DEVELOPMENT_TEAM = H9B67FB6G2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Meetlify BLE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.meetbit.MeetlifyBLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		509BD498250C1AD20062B305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9B67FB6G2;
+				INFOPLIST_FILE = "Meetlify BLETests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetbit.Meetlify-BLETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meetlify BLE.app/Meetlify BLE";
+			};
+			name = Debug;
+		};
+		509BD499250C1AD20062B305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9B67FB6G2;
+				INFOPLIST_FILE = "Meetlify BLETests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetbit.Meetlify-BLETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meetlify BLE.app/Meetlify BLE";
+			};
+			name = Release;
+		};
+		509BD49B250C1AD20062B305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9B67FB6G2;
+				INFOPLIST_FILE = "Meetlify BLEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetbit.Meetlify-BLEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meetlify BLE";
+			};
+			name = Debug;
+		};
+		509BD49C250C1AD20062B305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9B67FB6G2;
+				INFOPLIST_FILE = "Meetlify BLEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meetbit.Meetlify-BLEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meetlify BLE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		509BD465250C1ACE0062B305 /* Build configuration list for PBXProject "Meetlify BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509BD492250C1AD20062B305 /* Debug */,
+				509BD493250C1AD20062B305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509BD494250C1AD20062B305 /* Build configuration list for PBXNativeTarget "Meetlify BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509BD495250C1AD20062B305 /* Debug */,
+				509BD496250C1AD20062B305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509BD497250C1AD20062B305 /* Build configuration list for PBXNativeTarget "Meetlify BLETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509BD498250C1AD20062B305 /* Debug */,
+				509BD499250C1AD20062B305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509BD49A250C1AD20062B305 /* Build configuration list for PBXNativeTarget "Meetlify BLEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509BD49B250C1AD20062B305 /* Debug */,
+				509BD49C250C1AD20062B305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		504458DE2518AB4100A68DFB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
+		506A8076253F112D00308067 /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.11;
+			};
+		};
+		50A96127256C45C0007FE19E /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/timbersoftware/SwiftUIRefresh.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+		50C1F4EF252C60B3000DBC28 /* XCRemoteSwiftPackageReference "ObjectMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tristanhimmelman/ObjectMapper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.0;
+			};
+		};
+		50FAC0932537737300540C44 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		504458DF2518AB4100A68DFB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 504458DE2518AB4100A68DFB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		506A8077253F112D00308067 /* PartialSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 506A8076253F112D00308067 /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
+		};
+		50A96128256C45C0007FE19E /* SwiftUIRefresh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50A96127256C45C0007FE19E /* XCRemoteSwiftPackageReference "SwiftUIRefresh" */;
+			productName = SwiftUIRefresh;
+		};
+		50C1F4F0252C60B3000DBC28 /* ObjectMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50C1F4EF252C60B3000DBC28 /* XCRemoteSwiftPackageReference "ObjectMapper" */;
+			productName = ObjectMapper;
+		};
+		50FAC0942537737300540C44 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 50FAC0932537737300540C44 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 509BD462250C1ACE0062B305 /* Project object */;
+}
